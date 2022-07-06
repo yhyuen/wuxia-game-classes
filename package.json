@@ -1,4 +1,6 @@
 {
+  "main": "build/index.js",
+  "type": "module",
   "dependencies": {
     "typescript": "^4.7.4"
   },

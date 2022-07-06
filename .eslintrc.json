@@ -4,6 +4,9 @@
         "commonjs": true,
         "es2021": true
     },
+    "ignorePatterns": [
+        "build/**/*"
+    ],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended"
@@ -31,6 +34,10 @@
         "semi": [
             "error",
             "never"
+        ],
+        "eol-last": [
+            "error",
+            "always"
         ]
     }
 }
