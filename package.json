@@ -1,5 +1,7 @@
 {
+  "name": "wuxia-game-classes",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "type": "module",
   "dependencies": {
     "typescript": "^4.7.4"
@@ -9,5 +11,10 @@
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
     "eslint": "^8.19.0"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "watch": "tsc -w",
+    "build": "tsc"
   }
 }

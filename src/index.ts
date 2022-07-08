@@ -1,1 +1,1 @@
-export * as Stat from './classes/stat'
+export { default as Stat } from './classes/stat.js'
