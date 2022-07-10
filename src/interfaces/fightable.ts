@@ -1,7 +1,4 @@
-import Fightable from '../interfaces/fightable.js'
-
-class Enemy implements Fightable {
-  name: string
+interface Fightable {
   health: number
   qiAmount: number
   stamina: number
@@ -13,4 +10,4 @@ class Enemy implements Fightable {
   defense: number
 }
 
-export default Enemy
+export default Fightable
